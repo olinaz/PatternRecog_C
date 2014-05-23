@@ -1,0 +1,9 @@
+This project is written in C, targetting to recognzize shapes (rectangle, square or circle) from input image file in following steps:
+
+	1) read the input image data from .pgm file and convert the image data into to-be-processed array
+	2) find out the histogram of input array color value
+	3) calculate the threshold of input array color level using Ostu algorithm
+	4) convert the input array to binary array based on the threshold value
+	5) do the 8-way connectivity ananlysis to find out how many objects in the image
+	6) work on each object to figure out the shapes
+
